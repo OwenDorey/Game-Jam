@@ -16,7 +16,7 @@ public class CatsMovement : MonoBehaviour
     public float speed = 5f;
     public float jumpPower = 10f;
     public float coyoteTime = 0.2f;
-    private float coyoteTimeCounter;
+    [SerializeField] private float coyoteTimeCounter;
     private void Update()
     {
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
