@@ -81,7 +81,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 2048
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -428,7 +428,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GhostCat_0: 4051077972756221159
+      GhostCat_1: 6522099377541024018
+      GhostCat_10: 1496803940351626028
+      GhostCat_2: -4182152938891615408
+      GhostCat_3: 5077766138159895226
+      GhostCat_4: -1891219358170166376
+      GhostCat_5: 7801518705213980261
+      GhostCat_6: 740435611645420820
+      GhostCat_7: -6578377372596895895
+      GhostCat_8: -8847521100186546848
+      GhostCat_9: 6856847735144511266
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
