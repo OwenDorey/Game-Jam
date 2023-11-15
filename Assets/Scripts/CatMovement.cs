@@ -4,7 +4,7 @@ using System.Diagnostics.CodeAnalysis;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class CatsMovement : MonoBehaviour
+public class CatMovement : MonoBehaviour
 {
     public Rigidbody2D rb;
     public Transform groundCheck;
@@ -17,9 +17,32 @@ public class CatsMovement : MonoBehaviour
     public float jumpPower = 10f;
     public float coyoteTime = 0.2f;
     [SerializeField] private float coyoteTimeCounter;
+
+    public Animator animator;
     private void Update()
     {
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+
+        Debug.Log(rb.velocity.ToString());
+        
+        if (rb.velocity.x != 0 && IsGrounded())
+        {
+            animator.SetBool("IsMoving", true);
+            animator.SetBool("IsIdle", false);
+            animator.SetBool("IsJumping", false);
+        }
+        else if (rb.velocity.x == 0 && IsGrounded())
+        {
+            animator.SetBool("IsIdle", true);
+            animator.SetBool("IsMoving", false);
+            animator.SetBool("IsJumping", false);
+        }
+        else if (!IsGrounded())
+        {
+            animator.SetBool("IsJumping", true);
+            animator.SetBool("IsMoving", false);
+            animator.SetBool("IsIdle", false);
+        }
 
         if (!isFacingRight && horizontal > 0f)
         {
