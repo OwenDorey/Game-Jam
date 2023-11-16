@@ -8,5 +8,6 @@ public class MenuController : MonoBehaviour
     public void StartGame()
     {
         SceneManager.LoadScene(1);
+        Cursor.visible = false;
     }
 }

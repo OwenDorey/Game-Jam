@@ -22,8 +22,6 @@ public class CatMovement : MonoBehaviour
     private void Update()
     {
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
-
-        Debug.Log(rb.velocity.ToString());
         
         if (rb.velocity.x != 0 && IsGrounded())
         {
