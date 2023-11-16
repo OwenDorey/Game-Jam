@@ -10,6 +10,12 @@ public class MenuController : MonoBehaviour
     public void StartGame()
     {
         Cursor.visible = false;
+        StartCoroutine(Load(2));
+    }
+
+    public void StartAnimation()
+    {
+        Cursor.visible = false;
         StartCoroutine(Load(1));
     }
 
