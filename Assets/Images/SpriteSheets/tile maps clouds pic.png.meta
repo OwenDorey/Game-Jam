@@ -1,0 +1,402 @@
+fileFormatVersion: 2
+guid: 8370588918e83984694de1709d0ca3b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7516457202283726141
+    second: tile maps clouds pic_0
+  - first:
+      213: -2036556836697672530
+    second: tile maps clouds pic_1
+  - first:
+      213: 627569175163571767
+    second: tile maps clouds pic_2
+  - first:
+      213: -491677473924996313
+    second: tile maps clouds pic_3
+  - first:
+      213: 1158140926368381040
+    second: tile maps clouds pic_4
+  - first:
+      213: 8047983536567759157
+    second: tile maps clouds pic_5
+  - first:
+      213: -5734685959731903844
+    second: tile maps clouds pic_6
+  - first:
+      213: -1733591247852903486
+    second: tile maps clouds pic_7
+  - first:
+      213: -3710275646818361549
+    second: tile maps clouds pic_8
+  - first:
+      213: 2821484943574042676
+    second: tile maps clouds pic_9
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tile maps clouds pic_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 179
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -20.5, y: 10}
+        - {x: -20.5, y: -10}
+        - {x: 20.5, y: -10}
+        - {x: 20.5, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d354c876002df4860800000000000000
+      internalID: 7516457202283726141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps clouds pic_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 151
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -20.5, y: -14}
+        - {x: 20.5, y: -14}
+        - {x: 20.5, y: 14}
+        - {x: -20.5, y: 14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4fdbfd852bcb3e0800000000000000
+      internalID: -2036556836697672530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps clouds pic_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 178
+        width: 63
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -31.5, y: -11}
+        - {x: 31.5, y: -11}
+        - {x: 31.5, y: 11}
+        - {x: -31.5, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e0c9df6d295b800800000000000000
+      internalID: 627569175163571767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps clouds pic_3
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 151
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -11.5}
+        - {x: 16, y: -11.5}
+        - {x: 16, y: 11.5}
+        - {x: -16, y: 11.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723a3a641f53d29f0800000000000000
+      internalID: -491677473924996313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps clouds pic_4
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 151
+        width: 39
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -19.5, y: -11.5}
+        - {x: 19.5, y: -11.5}
+        - {x: 19.5, y: 11.5}
+        - {x: -19.5, y: 11.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0787704590b821010800000000000000
+      internalID: 1158140926368381040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps clouds pic_5
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 151
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -11.5}
+        - {x: 16, y: -11.5}
+        - {x: 16, y: 11.5}
+        - {x: -16, y: 11.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531305fe26e20bf60800000000000000
+      internalID: 8047983536567759157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps clouds pic_6
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 125
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -20.5, y: -12}
+        - {x: 20.5, y: -12}
+        - {x: 20.5, y: 12}
+        - {x: -20.5, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9282c7d08d4a60b0800000000000000
+      internalID: -5734685959731903844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps clouds pic_7
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 101
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -18, y: -11.5}
+        - {x: 18, y: -11.5}
+        - {x: 18, y: 11.5}
+        - {x: -18, y: 11.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3600ee1fb01f7e0800000000000000
+      internalID: -1733591247852903486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps clouds pic_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 106
+        width: 75
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -37.5, y: -7}
+        - {x: 37.5, y: -7}
+        - {x: 37.5, y: 7}
+        - {x: -37.5, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fdb9405f3728cc0800000000000000
+      internalID: -3710275646818361549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps clouds pic_9
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 51
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -15, y: -23}
+        - {x: 15, y: -23}
+        - {x: 15, y: 23}
+        - {x: -15, y: 23}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43808d87b9de72720800000000000000
+      internalID: 2821484943574042676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f5576ce733e21744eb28cbfc6b9b344a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      tile maps clouds pic_0: 7516457202283726141
+      tile maps clouds pic_1: -2036556836697672530
+      tile maps clouds pic_2: 627569175163571767
+      tile maps clouds pic_3: -491677473924996313
+      tile maps clouds pic_4: 1158140926368381040
+      tile maps clouds pic_5: 8047983536567759157
+      tile maps clouds pic_6: -5734685959731903844
+      tile maps clouds pic_7: -1733591247852903486
+      tile maps clouds pic_8: -3710275646818361549
+      tile maps clouds pic_9: 2821484943574042676
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
