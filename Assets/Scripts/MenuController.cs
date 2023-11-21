@@ -19,6 +19,16 @@ public class MenuController : MonoBehaviour
         StartCoroutine(Load(1));
     }
 
+    public void OpenMenu()
+    {
+        StartCoroutine(Load(0));
+    }
+
+    public void StartLevel(int levelIndex)
+    {
+        StartCoroutine(Load(levelIndex));
+    }
+
     IEnumerator Load(int levelIndex)
     {
         fade.SetTrigger("Fade");

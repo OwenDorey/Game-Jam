@@ -10,9 +10,12 @@ public class CoinCollect : MonoBehaviour
     public TMP_Text coinCounter;
     [SerializeField] private int coinAmount;
 
+    public EndGame endGame;
+
     private void Start()
     {
         coinCounter = GameObject.Find("CoinCounter").GetComponent<TMP_Text>();
+        endGame = GameObject.Find("FinalDogObject").GetComponent<EndGame>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -21,8 +24,10 @@ public class CoinCollect : MonoBehaviour
             gameObject.GetComponent<AudioSource>().Play();
             gameObject.GetComponent<BoxCollider2D>().enabled = false;
 
-            coinAmount = int.Parse(coinCounter.text) + 1;
-            coinCounter.text = coinAmount.ToString();
+            coinAmount = endGame.coins + 1;
+            coinCounter.text = coinAmount.ToString() + " / 15";
+
+            endGame.addCoin();
 
             coinModel.SetActive(false);
             Destroy(gameObject, 2f);
